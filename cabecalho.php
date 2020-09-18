@@ -51,16 +51,15 @@
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
             <div class="header__cart__price">item: <span>$150.00</span></div>
-
             <div class="header__top__right__auth ml-4">
                 <a href="#"><i class="fa fa-user"></i> Login</a>
             </div>
         </div>
         <div class="humberger__menu__widget">
-       
-
+            <div class="header__top__right__language">
+                
             </div>
-           
+            
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
