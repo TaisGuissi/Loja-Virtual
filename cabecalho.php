@@ -83,12 +83,12 @@
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a target ="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<?php echo $whatsapp_link ?>" title="<?php echo $whatsapp ?> "><i class="fa fa-whatsapp"></i></a>
         </div>
         <div class="humberger__menu__contact">
             <ul>
                 <li><i class="fa fa-envelope"></i> <?php echo $email ?> </li>
-                <li>Free Shipping for all Order of $99</li>
+                <li><?php echo $texto_destaque ?> </li>
             </ul>
         </div>
     </div>
@@ -103,7 +103,7 @@
                         <div class="header__top__left">
                             <ul>
                                 <li><i class="fa fa-envelope"></i> <?php echo $email ?></li>
-                                <li>Free Shipping for all Order of $99</li>
+                                <li><?php echo $texto_destaque ?></li>
                             </ul>
                         </div>
                     </div>
