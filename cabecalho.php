@@ -67,7 +67,7 @@ require_once("config.php");
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.php">Inicio</a></li>
-                <li><a href="./categorias.php">Categorias</a></li>
+                <li><a href="./categorias.php">Marcas</a></li>
                 <li><a href="#">Produtos</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./produtos.php">Lista de Produtos</a></li>

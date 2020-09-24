@@ -12,7 +12,7 @@ require_once("cabecalho.php");
                 <div class="hero__categories">
                     <div class="hero__categories__all">
                         <i class="fa fa-bars"></i>
-                        <span>Categorias</span>
+                        <span>Marcas</span>
                     </div>
                     <ul>
                         <li><a href="#">Fresh Meat</a></li>
@@ -67,17 +67,17 @@ require_once("cabecalho.php");
         <div class="row">
             <div class="categories__slider owl-carousel">
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
+                    <div class="categories__item set-bg" data-setbg="img/marcas/asus.jpg">
                         <h5><a href="#">Fresh Fruit</a></h5>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
+                    <div class="categories__item set-bg" data-setbg="img/marcas/cat-2.jpg">
                         <h5><a href="#">Dried Fruit</a></h5>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                    <div class="categories__item set-bg" data-setbg="img/marcas/cat-3.jpg">
                         <h5><a href="#">Vegetables</a></h5>
                     </div>
                 </div>

@@ -50,14 +50,14 @@ require_once("config.php");
 
 <!-- Map Begin -->
 <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49116.39176087041!2d-86.41867791216099!3d39.69977417971648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca48c841038a1%3A0x70cfba96bf847f0!2sPlainfield%2C%20IN%2C%20USA!5e0!3m2!1sen!2sbd!4v1586106673811!5m2!1sen!2sbd" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0757942375!2d-46.65341788554301!3d-23.565721167637243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1600987809394!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <div class="map-inside">
         <i class="icon_pin"></i>
         <div class="inside-widget">
-            <h4>New York</h4>
+            <h4>São Paulo</h4>
             <ul>
                 <li> <?php echo $whatsapp_link ?></li>
-                <li>Add: 16 Creek Ave. Farmingdale, NY</li>
+                <li><?php echo $endereco_loja ?></li>
             </ul>
         </div>
     </div>
@@ -70,21 +70,25 @@ require_once("config.php");
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact__form__title">
-                    <h2>Leave Message</h2>
+                    <h2>Contate-nos</h2>
                 </div>
             </div>
         </div>
-        <form action="#">
+        <form method="post">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <input type="text" placeholder="Your name">
+                <div class="col-lg-4 col-md-4">
+                    <input type="text" name="nome" placeholder="Seu nome" required>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <input type="text" placeholder="Your Email">
+                <div class="col-lg-4 col-md-4">
+                    <input type="text" name="email" placeholder="Seu E-mail" required>
                 </div>
+                <div class="col-lg-4 col-md-4">
+                    <input type="text" name="celular"  id="celular"placeholder="Seu WhatsApp" required>
+                </div>
+
                 <div class="col-lg-12 text-center">
-                    <textarea placeholder="Your message"></textarea>
-                    <button type="submit" class="site-btn">Enviar Mensagem</button>
+                    <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                    <button name="btn-enviar-email" id="btn-enviar-email" type="button" class="site-btn">Enviar Mensagem</button>
                 </div>
             </div>
         </form>
