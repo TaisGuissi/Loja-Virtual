@@ -122,7 +122,7 @@ require_once("config.php");
                         <li>Address: 60-49 Road 11378 New York</li>
                         <li>Phone: <?php echo $whatsapp_link ?> </li>
                         <li>E:mail: <?php echo $email ?> </li>
-                        
+
                     </ul>
                 </div>
             </div>
