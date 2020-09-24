@@ -29,24 +29,23 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <div class="hero__search">
+                <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
-                                <div class="hero__search__categories">
-                                    Produtos
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
+                               
                                 <input type="text" placeholder="What do yo u need?">
                                 <button type="submit" class="site-btn">Buscar</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
                             <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
+
+                            <a class="text-info" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<?php echo $whatsapp_link ?>" title="<?php echo $whatsapp ?> "><i class="fa fa-whatsapp text-success"></i></a>
+
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+55 11 9 6627-3756</h5>
-                                <span>support 24/7 time</span>
+                                <h5> <?php echo $whatsapp_link ?> </h5>
+                                <span>Nosso WhatsaApp</span>
                             </div>
                         </div>
                     </div>
