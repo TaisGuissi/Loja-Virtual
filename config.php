@@ -8,7 +8,7 @@ $whatsapp = '(11) 9 6627-3756';
 $whatsapp_link = '5511966273756';
 $nome_loja = 'Loja SPFC';
 $texto_destaque = 'Todos os produtos em promoção';
-$endereco_loja = 'Rua A, Número 12, São Paulo - SP';
+$endereco_loja = 'Avenida Paulista,12° andar, São Paulo - SP';
 
 
 ?>
