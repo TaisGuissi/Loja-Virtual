@@ -37,10 +37,11 @@
                          <button type="submit" class="site-btn">Cadastrar</button>
                      </form>
                      <div class="footer__widget__social">
-                         <a href="#"><i class="fa fa-facebook"></i></a>
-                         <a href="#"><i class="fa fa-instagram"></i></a>
-                         <a href="#"><i class="fa fa-twitter"></i></a>
-                         <a href="#"><i class="fa fa-pinterest"></i></a>
+                     <div class="header__top__right__social">
+                                <a target="_blank" title=" Ir para a página do facebook" href="http://www.facebook.com"><i class="fa fa-facebook text-info"></i></a>
+                                <a href="http://instagram.com/dado_ou_informacao"><i class="fa fa-instagram text-danger"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=<?php echo $whatsapp_link ?>" title="<?php echo $whatsapp ?> "><i class="fa fa-whatsapp text-success"></i></a>
                      </div>
                  </div>
              </div>
@@ -53,7 +54,7 @@
                              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                              Copyright &copy;<script>
                                  document.write(new Date().getFullYear());
-                             </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                             </script> Todos os produtos são demonstrativos | Loja Virtual <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                          </p>
                      </div>
