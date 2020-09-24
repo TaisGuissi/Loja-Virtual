@@ -7,8 +7,8 @@ require_once("config.php");
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Ogani Template">
-    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="description" content="Venda de Smartphones">
+    <meta name="keywords" content="Celular, Smartphones,  Dispositivos Moveís">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> <?php echo $nome_loja ?> </title>
@@ -25,6 +25,9 @@ require_once("config.php");
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="shortcut icon" href="/logoicone1.ico" type="image/x-icon"> <!--Icone do site -->
+    <link rel="icon" href="/logoicone1.ico" type="image/x-icon">
 </head>
 
 <body>
