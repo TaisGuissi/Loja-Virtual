@@ -60,35 +60,35 @@ require_once("cabecalho.php");
     </div>
 </section>
 <!-- Hero Section End -->
-
+<br><br>
 <!-- Categories Section Begin -->
 <section class="categories">
     <div class="container">
         <div class="row">
             <div class="categories__slider owl-carousel">
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/marcas/asus.jpg">
-                        <h5><a href="#">Fresh Fruit</a></h5>
+                    <div class="categories__item set-bg" data-setbg="img/marcas/asus.png">
+                        <h5><a href="#">Asus</a></h5>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/marcas/cat-2.jpg">
-                        <h5><a href="#">Dried Fruit</a></h5>
+                    <div class="categories__item set-bg" data-setbg="img/marcas/sansung.png">
+                        <h5><a href="#">Sansung</a></h5>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/marcas/cat-3.jpg">
-                        <h5><a href="#">Vegetables</a></h5>
+                    <div class="categories__item set-bg" data-setbg="img/marcas/motorola.png">
+                        <h5><a href="#">Motorola</a></h5>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                        <h5><a href="#">drink fruits</a></h5>
+                    <div class="categories__item set-bg" data-setbg="img/marcas/apple.png">
+                        <h5><a href="#">Apple</a></h5>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                        <h5><a href="#">drink fruits</a></h5>
+                    <div class="categories__item set-bg" data-setbg="img/marcas/Xiaomi.png">
+                        <h5><a href="#">Xiaomi</a></h5>
                     </div>
                 </div>
             </div>
@@ -103,15 +103,15 @@ require_once("cabecalho.php");
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Featured Product</h2>
+                    <h2>Destaques</h2>
                 </div>
                 <div class="featured__controls">
                     <ul>
-                        <li class="active" data-filter="*">All</li>
-                        <li data-filter=".oranges">Oranges</li>
-                        <li data-filter=".fresh-meat">Fresh Meat</li>
-                        <li data-filter=".vegetables">Vegetables</li>
-                        <li data-filter=".fastfood">Fastfood</li>
+                        <li class="active" data-filter="*">Todos</li>
+                        <li data-filter=".oranges">Asus</li>
+                        <li data-filter=".fresh-meat">Sansung</li>
+                        <li data-filter=".vegetables">Xiomi</li>
+                        <li data-filter=".fastfood">Apple</li>
                     </ul>
                 </div>
             </div>

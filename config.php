@@ -10,5 +10,6 @@ $nome_loja = 'Loja SPFC';
 $texto_destaque = 'Todos os produtos em promoção';
 $endereco_loja = 'Avenida Paulista,12° andar, São Paulo - SP';
 
-
+//logo 119x70
 ?>
+
