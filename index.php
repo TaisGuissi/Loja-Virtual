@@ -108,18 +108,18 @@ require_once("cabecalho.php");
                 <div class="featured__controls">
                     <ul>
                         <li class="active" data-filter="*">Todos</li>
-                        <li data-filter=".oranges">Asus</li>
-                        <li data-filter=".fresh-meat">Sansung</li>
-                        <li data-filter=".vegetables">Xiomi</li>
-                        <li data-filter=".fastfood">Apple</li>
+                        <li data-filter=".asus">Asus</li>
+                        <li data-filter=".sansung">Sansung</li>
+                        <li data-filter=".xiaomi">Xiaomi</li>
+                        <li data-filter=".apple">Apple</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row featured__filter">
-            <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix asus fresh-meat">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/zenfone3.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -127,14 +127,31 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Zenfone 3</a></h6>
+                        <h5>$1.379,99</h5>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-sm-6 mix sansung fastfood">
+                <div class="featured__item">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/galaxys10.png">
+                        <ul class="featured__item__pic__hover">
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="featured__item__text">
+                        <h6><a href="#">Galaxy S10</a></h6>
+                        <h5>$2.429,10</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix xiaomi fresh-meat">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/xiaomi-redmi-note8.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -142,14 +159,14 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Redminote 8</a></h6>
+                        <h5>$1.328,00</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix apple oranges">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/iphone6s.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -157,14 +174,14 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Iphone6S</a></h6>
+                        <h5>$1.134,00</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat asus">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
+                <div class="featured__item__pic set-bg" data-setbg="img/celular/zenfone4.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -172,14 +189,14 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Zenfone 4</a></h6>
+                        <h5>$1.899,00</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix sansung fastfood">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/galaxys9.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -187,14 +204,14 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Galaxy S9</a></h6>
+                        <h5>$2.000,00</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat xiaomi">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/xiaomi-redmi-note9.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -202,14 +219,14 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Redmi Note9</a></h6>
+                        <h5>$1.600,00</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+            <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood apple">
                 <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/iphone7">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -217,23 +234,8 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
-                <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
-                        <ul class="featured__item__pic__hover">
-                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
+                        <h6><a href="#">Iphone 7 </a></h6>
+                        <h5>$1.979,00</h5>
                     </div>
                 </div>
             </div>
