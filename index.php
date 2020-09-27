@@ -127,13 +127,13 @@ require_once("cabecalho.php");
                         </ul>
                     </div>
                     <div class="featured__item__text">
-                        <h6><a href="#">Zenfone 3</a></h6>
+                        <h6><a href="celular.php">Zenfone 3</a></h6>
                         <h5>$1.379,99</h5>
                     </div>
-                    
+
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-4 col-sm-6 mix sansung fastfood">
                 <div class="featured__item">
                     <div class="featured__item__pic set-bg" data-setbg="img/celular/galaxys10.png">
@@ -181,7 +181,7 @@ require_once("cabecalho.php");
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat asus">
                 <div class="featured__item">
-                <div class="featured__item__pic set-bg" data-setbg="img/celular/zenfone4.png">
+                    <div class="featured__item__pic set-bg" data-setbg="img/celular/zenfone4.png">
                         <ul class="featured__item__pic__hover">
                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                             <li><a href="#"><i class="fa fa-retweet"></i></a></li>
