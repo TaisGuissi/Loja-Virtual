@@ -29,9 +29,7 @@ include_once("../config.php");
 
 <body>
 
-</body>
 
-</html>
 
 <body>
     <div class="container">
@@ -53,27 +51,18 @@ include_once("../config.php");
                                 <label for="exampleInputEmail1">Senha</label>
                                 <input type="password" name="password" id="senha" class="form-control" aria-describedby="emailHelp" placeholder="Insira a senha">
                             </div>
-                            <div class="form-group">
-                                <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
-                            </div>
+                           
                             <div class="col-md-12 text-center ">
                                 <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
                             </div>
-                            <div class="col-md-12 ">
-                                <div class="login-or">
-                                    <hr class="hr-or">
-                                    <span class="span-or">or</span>
-                                </div>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                                <p class="text-center">
-                                    <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
-                                        </i> Signup using Google
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="form-group">
-                                <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                            
+                            
+                            <div class="form-group mt-4">
+                                <small>
+                                <p class="text-center">Não possui cadastro? <a href="#" id="signup"data-toggle="modal" data-target="#modalCadastro">Cadastrar</a></p>
+
+                                <p class="text-center"><a class="text-danger" href="#" id="signup"data-toggle="modal" data-target="#modalRecuperar">Recuperar senha?</a></p>
+                                </small>
                             </div>
                         </form>
 
@@ -118,4 +107,27 @@ include_once("../config.php");
         </div>
     </div>
 
-</body>
+    </body>
+
+</html>
+<!-- Modal -->
+
+<div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cadastrar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
