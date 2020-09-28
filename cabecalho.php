@@ -72,7 +72,7 @@ require_once("config.php");
                     <ul class="header__menu__dropdown">
                         <li><a href="./produtos.php">Lista de Produtos</a></li>
                         <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./checkout.php">Check Out</a></li>
                         <li><a href="./blog-details.html">Blog Details</a></li>
                     </ul>
                 </li>
@@ -120,7 +120,7 @@ require_once("config.php");
 
                             </div>
                             <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                                <a href="sistema"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ require_once("config.php");
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./produtos.php">Lista de Produtos</a></li>
                                     <li><a href="./categorias.php">Categorias</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./checkout.php">Check Out</a></li>
                                     <li><a href="./carrinho.php">Carrinho</a></li>
                                 </ul>
                             </li>

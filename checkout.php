@@ -69,7 +69,7 @@ include_once("cabecalho-busca.php");
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="row">
                             <div class="col-lg-5">
                                 <div class="checkout__input">
@@ -97,7 +97,7 @@ include_once("cabecalho-busca.php");
                             </div>
                         </div>
 
-                         <div class="checkout__input__checkbox">
+                        <div class="checkout__input__checkbox">
                             <label for="acc">
                                 Create an account?
                                 <input type="checkbox" id="acc">
@@ -117,7 +117,7 @@ include_once("cabecalho-busca.php");
                                 <span class="checkmark"></span>
                             </label>
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="checkout__order">
@@ -130,9 +130,9 @@ include_once("cabecalho-busca.php");
                             </ul>
                             <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
                             <div class="checkout__order__total">Total <span>$750.99</span></div>
-                            
-                          
-                            <button data-toggle="modal" data-target="#modalPagamento"type="submit" class="site-btn">Finalizar Compra</button>
+
+
+                            <button data-toggle="modal" data-target="#modalPagamento" type="submit" class="site-btn">Finalizar Compra</button>
                         </div>
                     </div>
                 </div>
@@ -140,30 +140,32 @@ include_once("cabecalho-busca.php");
         </div>
     </div>
 </section>
+
 <!-- Checkout Section End -->
 <!-- Modal -->
+
 <div class="modal fade" id="modalPagamento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal Pagamento</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal Pagamento</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+
 <?php
 include_once("rodape.php");
-
 ?>
 
 
