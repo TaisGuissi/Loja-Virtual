@@ -83,13 +83,15 @@ require_once("config.php");
                     <input type="text" name="email" placeholder="Seu E-mail" required>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <input type="text" name="celular"  id="celular"placeholder="Seu WhatsApp" required>
+                    <input type="text" name="telefone" id="telefone" placeholder="Seu WhatsApp" required>
                 </div>
 
                 <div class="col-lg-12 text-center">
                     <textarea name="mensagem" placeholder="Mensagem"></textarea>
                     <button name="btn-enviar-email" id="btn-enviar-email" type="button" class="site-btn">Enviar Mensagem</button>
                 </div>
+        <div class ="col-md-12 text-center mt-3" id="div-mensagem"></div>
+
             </div>
         </form>
     </div>
@@ -97,7 +99,36 @@ require_once("config.php");
 <!-- Contact Form End -->
 <?php
 require_once("rodape.php");
-
 ?>
+
+<script type="text/javascript">
+    $('#btn-enviar-email').click(function(event) {
+        event.preventDefault(); //Para não atualizar a página 
+        $.ajax({
+            url: "enviar.php",
+            method: "post",
+            data: $('form').serialize(),
+            dataType: "text",
+            success: function(msg){
+                if(msg.trim() === 'Enviado com Sucesso!'){ //trim: se a mensagem estiver com espaços, deve ser ignorada e compare se  o texto é igual
+
+                    $('#div-mensagem').addClass('text-success')
+                    $('#div-mensagem').text(msg);
+
+
+                    //$('#email').val('');
+                    //$('#nome').val('');
+                    //$('#telefone').val('');
+                    //$('#mensagem').val('');
+
+                } else{
+                    $('#div-mensagem').addClass('text-danger')
+                    $('#div-mensagem').text('Erro ao Enviar o formulário!');
+
+                }
+            }
+        })
+    })
+</script>
 
 </html>
