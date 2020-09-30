@@ -131,8 +131,12 @@ include_once("cabecalho-busca.php");
                             <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
                             <div class="checkout__order__total">Total <span>$750.99</span></div>
 
+                            <!-- Button trigger modal -->
+                            <button type="button" class="site-btn" data-toggle="modal" data-target="#modalPagamento">
+                                FINALIZAR COMPRA
+                            </button>
 
-                            <button data-toggle="modal" data-target="#modalPagamento" type="submit" class="site-btn">Finalizar Compra</button>
+
                         </div>
                     </div>
                 </div>
@@ -143,9 +147,8 @@ include_once("cabecalho-busca.php");
 
 <!-- Checkout Section End -->
 <!-- Modal -->
-
-<div class="modal fade" id="modalPagamento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+<div class="modal fade" id="modalPagamento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Modal Pagamento</h5>
@@ -164,10 +167,10 @@ include_once("cabecalho-busca.php");
     </div>
 </div>
 
+
+
 <?php
 include_once("rodape.php");
 ?>
-
-
 
 </html>

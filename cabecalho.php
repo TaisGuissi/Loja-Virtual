@@ -26,7 +26,9 @@ require_once("config.php");
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <link rel="shortcut icon" href="/logoicone1.ico" type="image/x-icon"> <!--Icone do site -->
+
+    <link rel="shortcut icon" href="/logoicone1.ico" type="image/x-icon">
+    <!--Icone do site -->
     <link rel="icon" href="/logoicone1.ico" type="image/x-icon">
 </head>
 
