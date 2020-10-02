@@ -156,18 +156,18 @@ include_once("../config.php");
                                 <label> Senha </label>
                                 <input type="password" class="form-control" id="senha" name="senha" placeholder="Insira sua senha">
                             </div>
-                            </div>
-                                <div class="col-md-6">
+                        </div>
+                        <div class="col-md-6">
 
-                                    <label> Confirmar Senha </label>
-                                    <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha">
-                                </div>
-                                </div>
+                            <label> Confirmar Senha </label>
+                            <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha">
+                        </div>
+                    </div>
 
-                                <div class="modal-footer">
-                            <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
-                            <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
-                            </div>                       
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-cadastrar" class="btn btn-info">Cadastrar</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -194,16 +194,16 @@ include_once("../config.php");
                 <form>
                     <div class="form-group">
 
-                    
+
                         <label> E-mail </label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Seu email">
 
                     </div>
 
-                                <div class="modal-footer">
-                            <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
-                            <button type="button" id="btn-recuperar" class="btn btn-info">Recuperar</button>
-                            </div>                       
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="btn-recuperar" class="btn btn-info">Recuperar</button>
+                    </div>
                 </form>
             </div>
         </div>

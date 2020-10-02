@@ -90,7 +90,7 @@ require_once("config.php");
                     <textarea name="mensagem" placeholder="Mensagem"></textarea>
                     <button name="btn-enviar-email" id="btn-enviar-email" type="button" class="site-btn">Enviar Mensagem</button>
                 </div>
-        <div class ="col-md-12 text-center mt-3" id="div-mensagem"></div>
+                <div class="col-md-12 text-center mt-3" id="div-mensagem"></div>
 
             </div>
         </form>
@@ -104,26 +104,29 @@ require_once("rodape.php");
 <script type="text/javascript">
     $('#btn-enviar-email').click(function(event) {
         event.preventDefault(); //Para não atualizar a página 
+        $('#div-mensagem').addClass('text-info')
+        $('#div-mensagem').text('Enviando');
+
         $.ajax({
             url: "enviar.php",
             method: "post",
             data: $('form').serialize(),
             dataType: "text",
-            success: function(msg){
-                if(msg.trim() === 'Enviado com Sucesso!'){ //trim: se a mensagem estiver com espaços, deve ser ignorada e compare se  o texto é igual
+            success: function(msg) {
+                if (msg.trim() === 'Enviado com Sucesso!') { //trim: se a mensagem estiver com espaços, deve ser ignorada e compare se  o texto é igual
 
                     $('#div-mensagem').addClass('text-success')
                     $('#div-mensagem').text(msg);
 
 
-                    //$('#email').val('');
-                    //$('#nome').val('');
-                    //$('#telefone').val('');
-                    //$('#mensagem').val('');
+                    $('#email').val('');
+                    $('#nome').val('');
+                    $('#telefone').val('');
+                    $('#mensagem').val('');
 
-                } else{
+                } else {
                     $('#div-mensagem').addClass('text-danger')
-                    $('#div-mensagem').text('Erro ao Enviar o formulário!');
+                    $('#div-mensagem').text('Erro ao Enviar o formulário! Provavélmente seu servidor de hospedagem não está com permissão de envio habilitada ou você está em um servidor local');
 
                 }
             }
