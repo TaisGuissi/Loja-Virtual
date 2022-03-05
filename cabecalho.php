@@ -73,7 +73,7 @@ require_once("config.php");
                 <li><a href="./categorias.php">Marcas</a></li>
                 <li><a href="#">Produtos</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./produtos.php">Lista de Produtos</a></li>
+                        <li><a href="./celular.php">celular</a></li>
                         <li><a href="./shoping-cart.html">Shoping Cart</a></li>
                         <li><a href="./checkout.php">Check Out</a></li>
                         <li><a href="./blog-details.html">Blog Details</a></li>
